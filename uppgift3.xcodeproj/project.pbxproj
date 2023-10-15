@@ -14,6 +14,8 @@
 		60D8A6B72ADC5675002D7995 /* uppgift3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D8A6B62ADC5675002D7995 /* uppgift3Tests.swift */; };
 		60D8A6C12ADC5675002D7995 /* uppgift3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D8A6C02ADC5675002D7995 /* uppgift3UITests.swift */; };
 		60D8A6C32ADC5675002D7995 /* uppgift3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D8A6C22ADC5675002D7995 /* uppgift3UITestsLaunchTests.swift */; };
+		60D8A6D02ADC574D002D7995 /* FruitDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D8A6CF2ADC574D002D7995 /* FruitDetailsView.swift */; };
+		60D8A6D42ADC656D002D7995 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D8A6D32ADC656D002D7995 /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		60D8A6BC2ADC5675002D7995 /* uppgift3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uppgift3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D8A6C02ADC5675002D7995 /* uppgift3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uppgift3UITests.swift; sourceTree = "<group>"; };
 		60D8A6C22ADC5675002D7995 /* uppgift3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uppgift3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		60D8A6CF2ADC574D002D7995 /* FruitDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailsView.swift; sourceTree = "<group>"; };
+		60D8A6D32ADC656D002D7995 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				60D8A6A52ADC5674002D7995 /* uppgift3App.swift */,
+				60D8A6D32ADC656D002D7995 /* FruitRowView.swift */,
+				60D8A6CF2ADC574D002D7995 /* FruitDetailsView.swift */,
 				60D8A6A72ADC5674002D7995 /* ContentView.swift */,
 				60D8A6A92ADC5675002D7995 /* Assets.xcassets */,
 				60D8A6AB2ADC5675002D7995 /* Preview Content */,
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				60D8A6A82ADC5674002D7995 /* ContentView.swift in Sources */,
+				60D8A6D02ADC574D002D7995 /* FruitDetailsView.swift in Sources */,
+				60D8A6D42ADC656D002D7995 /* FruitRowView.swift in Sources */,
 				60D8A6A62ADC5674002D7995 /* uppgift3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
